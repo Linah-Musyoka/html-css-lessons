@@ -1,0 +1,242 @@
+ /* Css rules */
+ /* Selectors */
+ /* Declaration block*/
+ /* declaration   */
+ /* property */
+ /* value */
+
+
+ /*  h1 {
+    color: yellowgreen;
+  }
+  h2{  
+    color:bisque;
+  }
+  p{
+    color:blue;
+  } 
+  /* changing the entire body and grouping */
+  /* body { 
+color: red;
+  }
+  h1,
+  h2 {
+    color:blueviolet; 
+  } */
+
+ 
+  /* ID */
+  /* #Tittle { 
+    color:green;
+    background: black; 
+  }
+  #subheading {
+  color: blueviolet;
+  background: yellowgreen;
+  }
+*/
+
+/* CLASS SELECTORS */
+/*.green{
+  color: green
+}
+.red{
+  color:red
+}
+*/
+/*DIV SPAN*/
+/*Inheritance*/
+/*Last rule and specificity*Universal selector*/
+
+/*Color properties*/
+/*Background Color */
+/*RGB RED GREEN BLUE 0-255 */
+/*RGB 0-1 OPACITY/TRANSPARENCY *
+INSTEAD OF RGB USES RGBA TO DETERMINE THE INTENSTIY OR OPACITY IF THE COLOUR WITH MAXIMUM BEING 1,MOST INTENSE*/
+/*HSL 
+HEX values #RRGGBB*/
+
+/*CSS UNITS*/
+/*1.Font size,width,height,pixels*/
+
+/*em - RELATIVE  depends on parent
+1em = 16px default browser style;
+1em = base value
+ABSOLUTE
+ */
+
+ /*
+ 2.vh - height - percent of the screen
+  vw - width- percent of the screen */
+
+  /*3.Default browser styles and google devTools*/
+
+/*
+calc()
+perform math operations + - * 
+mix and match values
+*/
+
+
+/*
+TYPOGRAPHY
+*/
+
+/* 
+ 1.Font size font family
+*/
+/*
+2.font-weight
+ font-style
+*/
+/*
+3. text-align
+   text-indent
+*/
+/*
+4.line-height
+ letter-spacing
+ word-spacing
+ text-transform
+ text-decoration
+*/
+
+/*CSS BOX MODEL*/
+/*
+1.padding
+border
+margin*/
+/* Border-Radius
+Negative margin*/
+
+/*OUTLINE
+Offset*/
+
+/*DISPLAY*/
+/*
+ Block:1. Always starts a new line and takes full width
+ 2.Top Bottom Margin Respected 
+
+ inline:1.Does not start and only take up as much as content space 
+ 2.Top Bottom Margin Not Respected*/
+/*Horizontal Centering */
+/* Mobile Nav bar */
+/*list-style type:Property descendant selectors*/
+/*Boarder box*/
+/*display:none
+opacity:0
+visibility:hidden
+*/
+/*background image
+background positiom
+background- size
+background-repeat
+background Attachment
+/*Gradient in CSS
+Linear gradient*/
+
+/*Float*-it works like text Wrap around images and for texts as well
+by default its none,it can be right,left etc */
+/*Clear property in floats*/
+/*positions; 
+static(default)
+relative
+absolute
+fixed*/
+
+/* Media Queries
+Responsive Design 
+Style element on Different Screen Sizes
+ min-width:--starting from
+ max-width:---upto
+ Mobile First */
+
+ /*
+ z-index ---|z-axis
+ position:static ---does not work 
+ only works with position relative or absolute
+  */
+
+  /*pseudo elements ::before :: after CONTENT not element
+  content:'' ---required
+  img --- does not work
+  transition 
+  */
+  /* Descendant and child Combinators
+   .header >h1 {
+
+} ---this is for the direct parent of an operator*/
+ /*::first-line :: first letter*/
+ /* :hover
+ p:hover {
+ color :red;
+ }*/
+ /*:link :visited :hover :active */
+ /*:root root element of the document html element
+ general styles
+ css variables*/
+
+ /*transform
+ transition
+ Animation*/
+ /*transform : translate(),scale(),rotate(),skew()*/
+
+ /*transition: change over time
+ transition-property:
+ transition-duration
+ transition-delay
+ shorthand
+ transition:all
+ */
+
+ /*
+ how the transition takes place 
+ transition-timing-function:
+ transition :all 3s here 5s;
+ ease = default
+ ease = slow start,fast,slow end
+ linear = same speed start to end
+ ease-in = slow start
+ ease-out =slow end
+ ease-in-out = slow start,fast,slow end*/
+
+ /*Transition 0=100% 
+ ANIMATION 0 1% 2% ....100%*/
+
+/* ANIMATION 0 1% 2% ....100%*
+SYNTAX
+.animation {
+background:blue;
+animation-name:
+animation-duration:
+animation-iteration-count:
+}
+/@key frames move {
+ 0%{
+    transform: translate (20px)
+}
+50%{
+  transform:  translate (100px)
+}
+}*/
+
+/*
+animation-fill-mode:what values are applied by the animation outside the time it is executing*/
+ 
+/*CSS VARIABLES AKA Custom Properties hold a value and reuse it
+--varName:var(--varName)
+scope
+:root{}===global
+element=== local
+any property
+*/
+
+/*
+ICONS
+Font-Awesome Icons
+Free,Easy to get running,simple syntax*/
+
+/*text-shadow
+box-shadow*/
+/*Custom CSS*/
+/*Semantic Elements*/
